@@ -1,27 +1,38 @@
-SHEIKH RICEMILL WEBSITE
-=======================
+SHEIKH RICEMILL WEBSITE — SEO-READY VERSION
+============================================
 
-Included:
-- Responsive one-page business website
-- Home, About, Rice Products, Quality, and Contact sections
-- Mobile navigation
-- Enquiry form with validation
-- WhatsApp message preparation and direct link support
-- Basic SEO metadata and a simple rice-leaf logo mark
+Files:
+- index.html: responsive website, SEO metadata, LocalBusiness structured data, and Google Maps search/directions button
+- styles.css: site styling
+- script.js: mobile navigation and WhatsApp enquiry form
+- sitemap.xml: sitemap for search engines
+- robots.txt: crawl instructions
+- README.txt: setup notes
 
-BEFORE GOING LIVE:
-1. Open script.js.
-2. The business WhatsApp number is configured as +91 60050 55869.
-   Use digits only, with country code. Example format for India: 919876543210.
-3. Verify all business details and product descriptions with the client.
-4. Replace illustrative stock photos with real photos of the mill, products, packaging, and team if available.
-5. Test the site on mobile and desktop.
+BUSINESS DETAILS IN WEBSITE
+Name: Sheikh Ricemill
+Address: Near J&K Grameen Bank, Ashtangoo, Bandipora, Jammu & Kashmir, India
+Business: Non-basmati rice enquiries
+WhatsApp/phone: +91 60050 55869
 
-RUN LOCALLY:
-Open index.html in a browser. An internet connection is needed for the Google Fonts and external stock photos.
+PUBLISHING THE UPDATE
+1. Open the GitHub repository.
+2. For each file, use Add file > Upload files, select the updated file, and commit changes. You can upload index.html, styles.css, script.js, robots.txt, sitemap.xml, and README.txt together.
+3. Do not upload the ZIP itself. Upload the individual files to the repository root.
+4. Wait for GitHub Pages to redeploy, then check the live site.
 
-FREE HOSTING:
-You can publish this static site using a static hosting provider such as GitHub Pages, Netlify, or Cloudflare Pages. A custom domain usually costs extra. The contact form prepares a WhatsApp message; it does not send messages silently or store customer data in a database.
+GOOGLE SEARCH INDEXING
+1. Open Google Search Console: https://search.google.com/search-console/
+2. Add a URL-prefix property for:
+   https://owaisreyaz9876-lang.github.io/Sheikh-Rice-Mill/
+3. Complete the ownership verification steps Google gives you. A GitHub Pages site may require using an HTML verification file or another method available in Search Console; follow the exact instructions shown.
+4. After verification, submit this sitemap:
+   https://owaisreyaz9876-lang.github.io/Sheikh-Rice-Mill/sitemap.xml
+5. Use URL Inspection on the homepage and choose Request Indexing.
+6. Indexing is not instant or guaranteed. Google may take days or longer to crawl and decide whether to show the site.
 
-IMPORTANT:
-The phone number is configured as provided. Test that it is the correct WhatsApp-enabled business number before publishing. Confirm that all claims and images are accurate before publishing.
+GOOGLE MAPS
+The button opens a Google Maps search for Sheikh Ricemill near J&K Grameen Bank, Ashtangoo, Bandipora. This is a search link, not a verified pin. Confirm the exact location pin with the client before presenting it as a precise navigation destination.
+
+IMPORTANT
+Structured data and SEO metadata help search engines understand the site but do not guarantee ranking or indexing. Do not claim official Google Business Profile verification unless it has actually been completed.
